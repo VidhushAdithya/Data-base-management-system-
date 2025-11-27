@@ -1,0 +1,8 @@
+CREATE TABLE food_nutrition (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    food_name VARCHAR(100) NOT NULL UNIQUE,
+    calories_per_100g FLOAT NOT NULL,
+    carbs_per_100g FLOAT NOT NULL,
+    protein_per_100g FLOAT NOT NULL,
+    fat_per_100g FLOAT NOT NULL
+);
